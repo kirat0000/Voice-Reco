@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #000; 
+  color: #FFA500; 
+}
+
+h1 {
+  color: #FFA500; 
+}
+
+#microphone {
+  font-size: 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #FFA500; 
+}
+
+#suggestions {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+#suggestions li {
+  background: #333; 
+  border: 1px solid #FFA500;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #FFA500; 
+}
+
+#suggestions li h2 {
+  margin: 0 0 10px;
+  color: #FFA500; 
+}
+
+#suggestions li img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #FFA500; 
+}
